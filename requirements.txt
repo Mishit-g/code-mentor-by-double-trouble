@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-community
+langgraph
+duckduckgo-search
+gradio
+python-dotenv
+requests
+groq
+plotly
