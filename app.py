@@ -338,4 +338,4 @@ with gr.Blocks(theme=CODEMENTOR_THEME, css=CUSTOM_CSS, head=HEAD_HTML, title="Co
     tabs.select(fn=_steps_for_tab, outputs=steps_out)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
